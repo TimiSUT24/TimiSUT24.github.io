@@ -1,14 +1,15 @@
 const LoadingMessage = document.getElementById("projects");
 async function getGithubProjects(){
+    //require('dotenv').config();
     const gitUrl = `https://api.github.com/users/TimiSUT24/repos`;
-    const token = "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";
+    //const token = "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";
     try{
         LoadingMessage.innerHTML = "<p>Loading Github projects </p>";
-        const response = await fetch(gitUrl,{
+        const response = await fetch(gitUrl)/*,{
             headers: {
                 "Authorization": `token ${token}`
             }
-        });      
+        });      */
 
         if(!response.ok){
             throw new Error(`HTTP error! status: ${response.status}`)
