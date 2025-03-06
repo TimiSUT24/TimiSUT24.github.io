@@ -27,7 +27,7 @@ async function getGithubProjects(){
             const element = document.createElement("li");
             element.className = "pf-item";
             element.innerHTML = `               
-                ${repos.name} <a href="${repos.html_url}" target="_blank">Se på GitHub</a>
+                ${repos.name}<br> <br>Description: ${repos.description} <a href="${repos.html_url}" target="_blank">Se på GitHub</a>
                 `;
                 projectlist.appendChild(element);
         })
