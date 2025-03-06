@@ -1,7 +1,7 @@
 const LoadingMessage = document.getElementById("projects");
 async function getGithubProjects(){
     const gitUrl = `https://api.github.com/users/TimiSUT24/repos`;
-    const token = "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";
+    const token = "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";
     try{
         LoadingMessage.innerHTML = "<p>Loading Github projects </p>";
         const response = await fetch(gitUrl,{
