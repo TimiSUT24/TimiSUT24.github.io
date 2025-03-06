@@ -1,0 +1,36 @@
+
+{   
+    "education": "Education", 
+    "img": "./IMG/yoda.jpg",
+    "educationList": [
+        {"educationTitle": "Falkenbergs gymnasium 2017-2020",
+        "educationText": "Tech Program"},
+        
+        {"educationTitle": "Campus Varberg 2024-2026",
+        "educationText": "System Developer.NET"}      
+    ],
+
+    "jobs": "Jobs",
+    "jobsList": [
+        {"jobTitle": "Sia Glass 2023-2024",
+        "jobText": "Machine operator that makes sure the ice cream is produced"},
+
+        {"jobTitle": "Lernia 2022-2023",
+        "jobText": "Working at different jobs as machine operator and stocking goods"},
+
+        {"jobTitle": "Gekås Hotell 2021-2023",
+        "jobText": "Hotel cleaner that cleans the hotel rooms."}
+    ],
+
+    "qualifications": "Qualifications",
+    "qualifyList": [
+        {"qualificationText": "Determined"},
+        {"qualificationText": "Service oriented"},
+        {"qualificationText": "Motivated and disciplined"},
+        {"qualificationText": "Loyal"},
+        {"qualificationText": "Team Player"}
+    ],
+    
+    "spareTime": "Spare time",
+    "spareTimeList": [{"sparetimeText": "In the spare time i do programming,gaming and workout hehehehe."}]
+}
