@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>CV</title>
 </head>
-<body>   
+<body>
     <header class = "header">
-        <h1 class = "h1">Tims Web</h1>
+        <h1 class = "h1">My CV</h1>
         <nav class = "navbar">
             <ul class ="ulnav">           
                 <li class = "nav-item"> <a href="./index.html">Home</a></li>   
@@ -19,9 +19,20 @@
             </ul>
         </nav>
     </header>
+    <hr>
+    <button id = "hidden-btn" class = "hid-btn"></button>
     <main>
-        <h2>Welcome to my first CV Website</h2>
-        <img class = "celebration" src="IMG/celebration.jpg" alt="">
-    </main>      
+        <article class = "articleCV" id = "articles">                          
+        </article>  
+        <div id = "easter-modal" class = "modal">
+            <div class = "video">
+                <video width="1000" height = "800" controls>
+                    <source src="./Yoda's Drug Addiction.mp4" type="video/mp4">
+                </video>   
+                <a href="#" class ="close-btn">Close</a>
+            </div>           
+        </div>
+    </main>
+    <script type ="module" src ="./CV.js"></script>
 </body>
 </html>
