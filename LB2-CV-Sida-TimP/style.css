@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;  
+    text-align: center;
+}
+
+.h1{
+    border: solid;
+}
+
+.ulnav{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; /* */
+    gap:5px;
+    margin:0;
+    padding:0;
+}
+
+.navbar a{
+    color: black;
+}
+
+.nav-item{
+    padding: 10px;    
+    list-style: none; 
+}
+
+.pf-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;    
+    gap: 20px;   
+}
+
+.pful{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 0;
+    list-style: none;
+    gap: 10px;
+}
+.pfPictures{
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    width: 20vw;
+    height:20vw;
+}
+
+.modal-content{
+    background-color: gray;
+    width: 250px;
+    height: 270px;
+    align-content: center;
+    position: fixed; /* keeps the modal in place*/
+    top: 50%; /* set the position*/
+    left: 50%;    
+    transform: translate(-50%,-50%); /* keeps it in the center*/
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.modal{     
+    display: none; 
+    justify-content:center;  
+    align-items: center;    
+    position: fixed;  
+    top: 0; left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: gray;
+}
+
+.modal:target{
+    display:flex;
+}
+
+.close-btn{    
+    color:black;
+    font-size: 40px;
+    display: contents;  
+}
+
+.qualifyList{    
+    margin:0;
+    padding:0;
+}
+
+.sparetime{
+    padding-bottom:10rem;
+}
+
+.yoda{    
+    display:grid;
+    grid-template-rows: 1fr;
+    position:absolute;
+    max-width: 260px;
+    width: 15vw; 
+}
+
+.celebration{
+    max-width: 1000px;
+    width: 100vw;  
+}
+
+.hid-btn{
+    display: flex;
+    position:relative;
+    left: 10rem;
+    opacity: 10%;
+    background-color: black;
+    
+}
+
+.video{
+    align-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+}
+
+.video video{
+    width: 100%;
+    height: auto;
+}
