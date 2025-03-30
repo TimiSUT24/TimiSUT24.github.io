@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/dashboard.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div id ="background">
+    <header>        
+        <section id = "datetimeId" class = "datetime" >
+            <p id= "formatTime"></p>   
+            <p id ="formatDate" ></p> 
+        </section>     
+        <input id = "dashboard-title" class = "dashTitle" type="text" placeholder="Your Dash Board">
+    </header>
+    <main>
+        <section class = "row">
+            <section id = "column1" class = "column">
+                <h4 class = "grid-titles">Snabblänkar </h4>
+                <section class = "link-scroll">
+                    <section id = "link-section" class = "links-section">                            
+                    </section>   
+                </section>                        
+                <button  id = "add-link" class = "link-Btn"> <img class ="add-icon" src="../IMG/icons8-plus-24.png" alt="">Lägg till länk</button>          
+            </section>
+
+            <section id = "column2" class = "column">
+                <h4 class = "grid-titles">Dagens väder</h4>
+                <section id = "weather" class ="weather_section">                      
+                    <img  id = "weather-icon"src="" alt="">
+                    <section  class = "weahter-info">
+                        <p id = "current-day" class = "weather-day">Idag</p>
+                        <section class = "weather-details">
+                            <p id="celsius"></p>
+                            <p id ="desc"></p>
+                        </section>
+                    
+                    </section>
+                    
+                </section>
+                
+                <section id = "weather" class ="weather_section">                      
+                    <img  id = "weather-icon2"src="" alt="">
+                    <section class = "weahter-info">
+                        <p id = "current-day2" class = "weather-day">Imorgon</p>
+                        <section class = "weather-details">
+                            <p id="celsius2" class ="cel"></p>                          
+                            <p id ="desc2"></p>                                             
+                        </section>                    
+                    </section>                  
+                </section>
+
+                <section id = "weather" class ="weather_section">                      
+                    <img  id = "weather-icon3"src="" alt="">
+                    <section  class = "weahter-info">
+                        <p id = "current-day3" class = "weather-day"></p>
+                        <section class = "weather-details">
+                            <p id="celsius3"></p>
+                            <p id ="desc3"></p>
+                        </section>                
+                    </section>                 
+                </section>                              
+            </section>
+
+            <section id = "column3" class = "column">
+                <h4 class = "grid-titles">Sport matcher</h4>
+                <article id = "sports" class = "sports-article">
+                    <p class = "football"><img class = "football-icon" src="../IMG/icons8-football-48.png" alt="">Fotboll</p>
+                    <p id = "match1" class ="match-p"></p>
+                    <section class ="firstP-section">
+                        <p id="tournament1"></p>
+                        <p>-</p>
+                        <p id ="start1"></p>                      
+                    </section>
+                    <section class ="secondP-section">
+                        <p id="stadium1" class ="stadi"></p>
+                        <p>-</p>
+                        <p id ="land1"></p>
+                    </section>                                                         
+                </article>
+
+                <article id = "sports" class = "sports-article">
+                    <p class = "football"><img class = "football-icon" src="../IMG/icons8-football-48.png" alt="">Fotboll</p>
+                    <p id = "match2" class ="match-p"></p>
+                    <section class ="firstP-section">
+                        <p id="tournament2"></p>
+                        <p>-</p>
+                        <p id ="start2"></p>                      
+                    </section>
+                    <section class ="secondP-section">
+                        <p id="stadium2" class ="stadi"></p>
+                        <p>-</p>
+                        <p id ="land2"></p>
+                    </section>                                                         
+                </article>
+            </section>
+          
+            <section id = "column4" class = "column">
+                <h4 class = "grid-titles">Anteckningar</h4>
+                <article class ="notes">
+                    <p contenteditable="true" class ="notes-text" id = "note">ss</p>                  
+                </article>
+            </section>
+           
+        </section>
+        <img id = "testimg"src="" alt="">
+
+    </main>
+    <footer>
+        <button id ="picture-gen"class ="generate-background"><img class="reload-img" src="../IMG/icons8-refresh-30.png" alt="">Slumpa ny bakgrund</button>
+    </footer>
+    <script src="../JS/dashboard.js"></script>
+</div>
+</body>
+</html>
