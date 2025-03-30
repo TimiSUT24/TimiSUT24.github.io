@@ -98,24 +98,19 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
   
-    //Get Weather
+    //Get Weather/Sports
     async function getWeather() {
           
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(async (position) => {
                 const latitude = position.coords.latitude;
-                const longitude = position.coords.longitude;
-
-                //const forecast = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey2}&q=${latitude} ${longitude}&days=3&aqi=no&alerts=no&lang=sv`
-                //const current = `https://api.weatherapi.com/v1/current.json?key=${apiKey2}&q=${latitude} ${longitude}&lang=sv`
-                //const sporturl = `http://api.weatherapi.com/v1/sports.json?key=${apiKey2}&q=England`
+                const longitude = position.coords.longitude;          
                 try {
-                    //const currentResponse = await fetch(current);
-                    //const forecastResponse = await fetch(forecast)
-                    //const sportResponse = await fetch(sporturl)
+                
                     const currentResponse = await fetch(`https://backend-dashboard-mcb4.onrender.com/api/weather/current?lat=${latitude}&lon=${longitude}`)
                     const forecastResponse = await fetch(`https://backend-dashboard-mcb4.onrender.com/api/weather/forecast?lat=${latitude}&lon=${longitude}`)
                     const sportResponse = await fetch(`https://backend-dashboard-mcb4.onrender.com/api/weather/sports`)
+
                     if(!currentResponse.ok || !forecastResponse.ok || !sportResponse.ok){
                         throw new Error(`HTTP error! Status: 
                             Current weather: ${currentResponse.status},
@@ -125,10 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
                   
                     const weatherData = await currentResponse.json();
                     const forecastData = await forecastResponse.json();
-                    const sportsData = await sportResponse.json();
-                    console.log(weatherData);
-                    console.log(forecastData)
-                    console.log(sportsData)
+                    const sportsData = await sportResponse.json();                 
 
                     //Current weather
                     const icon = weatherData.current.condition.icon
@@ -182,20 +174,11 @@ document.addEventListener("DOMContentLoaded", function() {
         return day.charAt(0).toLocaleUpperCase() + day.slice(1)      
     }
      
-       
+       //Get Photos
         document.getElementById("picture-gen").addEventListener("click",async function(){
             try{
-                //const randomPic = Math.floor(Math.random() * 100) + 1;
-                //const pictureurl = `https://api.pexels.com/v1/curated?per_page=${randomPic}page&page=${randomPic}`
-                
-                /*const response = await fetch(pictureurl,{
-                    method: 'GET',
-                    headers: {
-                        'Authorization': pictureApi
-                    }
-                })*/
-               const response = await fetch("https://backend-dashboard-mcb4.onrender.com/api/photos")
-             
+                       
+               const response = await fetch("https://backend-dashboard-mcb4.onrender.com/api/photos")            
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
                 }
