@@ -1,3 +1,9 @@
+
+- [Images](#-images)
+
+
+
+## Images
 <img width="800" height="500" alt="HomeMario" src="https://github.com/user-attachments/assets/a1776b22-8c90-4814-9593-b0471e3dd316" />
 <img width="800" height="500" alt="SökAktivtet" src="https://github.com/user-attachments/assets/e74dfdfb-3286-4e6d-9dbf-d90d20a28ef8" />
 <img width="800" height="500" alt="MinaBokningar" src="https://github.com/user-attachments/assets/3208389c-71f7-418a-9878-2ce871b88e95" />
