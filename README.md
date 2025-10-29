@@ -3,44 +3,9 @@
 - [Home](#-home)
 
 ## Home
-Hej dsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-
-dsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddddsadadaddasdadadaddassddddsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-dsadadaddasdadadaddassddd
-
+Hej 
+<img width="800" height="500" alt="HomeMario" src="https://github.com/user-attachments/assets/a1776b22-8c90-4814-9593-b0471e3dd316" />
+<img width="800" height="500" alt="SökAktivtet" src="https://github.com/user-attachments/assets/e74dfdfb-3286-4e6d-9dbf-d90d20a28ef8" />
 
 
 ## Images
