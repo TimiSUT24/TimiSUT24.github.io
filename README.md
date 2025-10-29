@@ -1,7 +1,9 @@
 
 - [Images](#-images)
+- [Home](#-home)
 
-
+## Home
+Hej
 
 ## Images
 <img width="800" height="500" alt="HomeMario" src="https://github.com/user-attachments/assets/a1776b22-8c90-4814-9593-b0471e3dd316" />
